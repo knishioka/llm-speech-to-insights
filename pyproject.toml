@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "llm-speech-to-insights"
+version = "0.1.0"
+description = ""
+authors = ["Kenichiro Nishioka <nishioka.kenichiro@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+google-cloud-speech = "^2.26.0"
+google-cloud-storage = "^2.16.0"
+langchain = "^0.1.17"
+openai = "^1.25.0"
+langchain-openai = "^0.1.5"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
